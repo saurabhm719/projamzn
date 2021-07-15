@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const user = require("./routes/user.js");
 const bodyParser = require("body-parser");
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 4000;
 const InitiateMongoServer = require('./config/mongoose.js');
 
 InitiateMongoServer();
