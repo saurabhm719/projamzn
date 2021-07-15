@@ -1,0 +1,21 @@
+body{
+    width: 300px;
+    height: 200px;
+}
+div{
+    display: inline-block;
+}
+#image{
+    vertical-align: top;
+    width: 25%;
+}
+
+#image img{
+    margin: 15px;
+    width: 40px;
+    height:40px;
+}
+
+#content{
+    width: 70%;
+}
